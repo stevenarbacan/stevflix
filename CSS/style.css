@@ -1,0 +1,156 @@
+body{
+    margin:0;
+    font-family: Arial;
+}
+.black{
+    background-color: black;
+}
+.zone {
+    cursor:pointer;
+    color:#FFF;
+    font-size:2em;
+    border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+}
+
+.zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+/* Nav */
+.sticky{
+    position:fixed;
+    top:0;
+    width: 100%;
+
+
+}
+.main-nav{
+    display: flex;
+    list-style: none;
+    font-size: 0.7em;
+    margin:0;
+    text-transform: uppercase;
+    font-family: serif;
+}
+@media only screen and (max-width:600px){
+.main-nav{
+    font-size:0.5em;
+    padding:0;
+}
+.cover{
+    font-size: 3em;
+    font-weight: bold;
+    color:red;
+    margin: 150px auto 200px auto;
+    
+}
+.container h3{
+    font-size: 0.5em;
+}
+}
+li{
+    padding:20px;
+}
+.push{
+    margin-left:auto;
+}
+a{
+    color:#f5f5f6;
+    text-decoration: none;
+}
+p{
+    color:#f5f5f6;
+    margin:0;
+}
+/*cover*/
+.container{
+    width: 100%;
+    padding-top: 10vh;
+     background-color: rgb(19, 16, 16);
+}
+.cover{
+    font-size: 3em;
+    font-weight: bold;
+    color:red;
+    margin: 100px auto 50px auto;
+    text-align: center;
+}
+/*Grid*/
+.grid-wrapper{
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-rows: 1fr;
+}
+.download_button{
+    padding:20px;
+    background-color: green;
+    display: relative;
+    margin-left:100px;
+}
+.selector{
+    background-color: black;
+    font-size: 20px;
+    color:#f5f5f6;
+}
+ img{
+    display: absolute;
+    width: 100%;
+    text-align: center;
+}
+.sideBar{
+    width: 0;
+    background-color:black;
+    overflow:hidden;
+    position: absolute;
+    margin: 70px auto 0 1px;
+    position: fixed;
+}
+.sideBar ul{
+    list-style: none;
+    margin:0;
+}
+.sideBar ul li{
+    line-height: 10px;
+    font-size: 1.5em;
+    padding:30px;
+}
+.sideBar ul li:hover{
+    opacity: 0.5;
+}
+.box{
+    background-color: #444;
+    padding:40px;
+    margin:20px;
+}
+footer{
+    text-align: center;
+    background-color: rgb(139, 7, 7);
+    font-size: 1em;
+    padding:30px;
+    color:#eb8484;
+    font-family:  Geneva;
+}
+.container h3{
+    color:#FFF;
+    font-size: 1.3em;
+    margin:20px auto 200px auto;
+    width: 500px;
+    font-family: Geneva;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.genre-list{
+    text-align: center;
+    color:red;
+    font-size: 1.5em;
+    border-top: #FFF solid 1px;
+    border-bottom: red solid 2px;
+    box-shadow:  0 0 8px rgb(230, 39, 39);
+    background-color: black;
+    font-family: 'Courier New';
+}
